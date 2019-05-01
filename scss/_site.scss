@@ -111,6 +111,16 @@ nav.navbar .dropdown .dropdown-item:hover {
 .tab-content .input-group-append .input-group-text {
     background-color: #fbf9f4;
 }
+.tab-content.login .card {
+    border-top: none;
+    border-radius: 0;
+}
+.tab-content.login .card .card-body {
+    background-color: #fbf9f4;
+}
+.card-body small mark {
+    background-color: #fdf6e4;
+}
 
 .remove-round {
     border-radius: unset;
