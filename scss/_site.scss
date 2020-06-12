@@ -132,3 +132,12 @@ footer .bg-fiu-light a {
 footer .bg-fiu-dark a {
     color: #F8C93E;
 }
+
+
+@media (max-width: 768px) {
+    .col-md-4 .card.my-4, 
+    .col-md-8 h5.text-muted, 
+    .col-md-8 p.my-4 {
+        display: none;
+    }
+}
