@@ -126,11 +126,69 @@ nav.navbar .dropdown .dropdown-item:hover {
     border-radius: unset;
 }
 
-footer .bg-fiu-light a {
-    text-decoration: none;
+
+.login {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    .row {
+        .col {
+            background-color: #fbf9f4;
+            padding: 0;
+            margin-left: 15px;
+            margin-right: 15px;
+
+            a {
+                display: block;
+                img {
+                    border: 3px solid transparent;
+                    transition: border .15s ease-in-out;
+                }
+                figure.figure {
+                    margin: 0;
+                    padding-bottom: 1rem;
+
+                    figcaption.figure-caption {
+                        padding: 1rem 1.5rem 1.5rem 1.5rem;
+                        line-height: 1.25;
+                        font-size: 1.25rem;
+
+                        strong {
+                            display: block;
+                        }
+                    }
+
+                    p {
+                        padding: 0 1.5rem;
+
+                        em {
+                            background-color: yellow;
+                            font-style: normal;
+                        }
+                    }
+                }
+                &:hover {
+                    img {
+                        border-color: #091e3f;
+                    }
+                }
+            }
+        }
+    }
 }
-footer .bg-fiu-dark a {
-    color: #F8C93E;
+
+footer {
+    margin-top: 3rem;
+    
+    .text-muted {
+        color: #aeb3b7 !important;
+    }
+
+    .bg-fiu-light a {
+        text-decoration: none;
+    }
+    .bg-fiu-dark a {
+        color: #F8C93E;
+    }
 }
 
 
